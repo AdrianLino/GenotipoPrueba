@@ -1,0 +1,30 @@
+{
+  "name": "genotipoprueba",
+  "version": "1.0.0",
+  "description": "Una empresa llamada “UpperLogistics” requiere de un desarrollo de página web para su presentación como marca. Además, la página web deberá tener una sección de artículos para compartir ‘tendencias de su sector’.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./public/src/css/input.css -o ./public/src/css/output.css --watch",
+    "build-css": "npx postcss ./app/Views/assets/css/main.css -o /Views/assets/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianLino/GenotipoPrueba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianLino/GenotipoPrueba/issues"
+  },
+  "homepage": "https://github.com/AdrianLino/GenotipoPrueba#readme"
+}
