@@ -6,7 +6,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-
     <title>Myth:Auth</title>
 
     <!-- Bootstrap core CSS -->
@@ -22,7 +21,6 @@
 
 <body>
 
-<?= view('App\Views\Auth\_navbar') ?>
 
 <main role="main" class="container">
 	<?= $this->renderSection('main') ?>
